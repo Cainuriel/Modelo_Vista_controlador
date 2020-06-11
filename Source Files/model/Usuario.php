@@ -29,13 +29,12 @@ class Usuario extends EntidadBase {
         return $this->password;
     }
 
+       # setters
+
     public function setId($id)
     {
         $this->id = $id;
     }
-
-
-    # setters
 
     public function setNombre($nombre)
     {
@@ -47,7 +46,7 @@ class Usuario extends EntidadBase {
         $this->email = $email;
     }
 
-    public function set($password)
+    public function setPassword($password)
     {
         $this->password = $password;
     }
